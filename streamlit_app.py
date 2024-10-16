@@ -10,8 +10,8 @@ blog_post=st.sidebar.radio('Onderdelen',
 if blog_post == 'Introductie':
   st.header('Inleiding')
 # ======================================================================================================================================================================
-elif blog_post == ' Aannames':
-  st.header('Aanames')
+elif blog_post == 'Aannames':
+  st.header('Aannames')
   st.write("""
     **Aannames voor de dataset van de hackathon:**
 
