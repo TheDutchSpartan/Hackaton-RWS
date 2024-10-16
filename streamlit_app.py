@@ -1,7 +1,7 @@
 import streamlit as st
 
-from steamlit_gallery import apps, componetns
-from streamlit_gallery import page_group
+# from steamlit_gallery import apps, componetns
+# from streamlit_gallery import page_group
 
 with st.expander('Onderdelen',True):
     page.item('Introductie')
