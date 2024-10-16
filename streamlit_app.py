@@ -15,10 +15,10 @@ elif blog_post == ' Aannames':
   st.header('Aanames')
   st.write("Aannames voor de dataset van de hackathon:"
 
-    "Bedrijven in de fruit-, groente- of aardappelsector:
+    Bedrijven in de fruit-, groente- of aardappelsector:
         Bij lokale leveringen rijdt een vrachtwagen gemiddeld 200 km per dag.
         Bij nationale leveringen rijdt een vrachtwagen gemiddeld 450 km per dag.
-        Bij internationale leveringen rijdt een vrachtwagen gemiddeld 800 km per dag."
+        Bij internationale leveringen rijdt een vrachtwagen gemiddeld 800 km per dag.
 
     Bedrijven in de logistieke sector:
         Bij lokale leveringen rijdt een vrachtwagen gemiddeld 200 km per dag.
