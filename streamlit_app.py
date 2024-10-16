@@ -4,5 +4,5 @@ import streamlit as st
 # from streamlit_gallery import page_group
 
 st.sidebar.radio('Onderdelen',
-                 ["Introductie", "Aannames", "Informatie terrein","Energienehoefte","Conclusie/Aanbevelingen"],
+                 ["Introductie", "Aannames", "Informatie terrein","Energienehoefte","Conclusie/Aanbevelingen"])
    
