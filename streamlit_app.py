@@ -20,13 +20,13 @@ elif blog_post == ' Aannames':
         Bij nationale leveringen rijdt een vrachtwagen gemiddeld 450 km per dag.
         Bij internationale leveringen rijdt een vrachtwagen gemiddeld 800 km per dag."
 
-    "Bedrijven in de logistieke sector:
+    Bedrijven in de logistieke sector:
         Bij lokale leveringen rijdt een vrachtwagen gemiddeld 200 km per dag.
         Bij nationale leveringen rijdt een vrachtwagen gemiddeld 450 km per dag.
         Bij internationale leveringen rijdt een vrachtwagen gemiddeld 800 km per dag.
-        Voor langeafstandstrajecten rijdt een vrachtwagen meer dan 1.000 km per dag, tot ongeveer 1.500 km."
+        Voor langeafstandstrajecten rijdt een vrachtwagen meer dan 1.000 km per dag, tot ongeveer 1.500 km.
 
-"Basis voor geschatte gereden kilometers van bestelwagens, personenauto's en elektrische voertuigen:
+Basis voor geschatte gereden kilometers van bestelwagens, personenautos en elektrische voertuigen:
 
     De schattingen zijn per sector verdeeld:
         Voor bedrijven die frequent aan klanten leveren, zijn hogere schattingen gemaakt voor de kilometers gereden met bestelwagens.
