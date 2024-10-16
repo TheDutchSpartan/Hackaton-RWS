@@ -13,7 +13,7 @@ if blog_post == 'Introductie':
 # ======================================================================================================================================================================
 elif blog_post == ' Aannames':
   st.header('Aanames')
-  st.write(st.write("""
+ st.write("""
 **Aannames voor de dataset van de hackathon:**
 
 1. **Bedrijven in de fruit-, groente- of aardappelsector:**
