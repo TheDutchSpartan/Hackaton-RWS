@@ -3,3 +3,4 @@ folium
 numpy
 matplotlib
 pandas
+nominatim
