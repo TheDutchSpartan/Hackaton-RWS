@@ -177,25 +177,25 @@ elif blog_post == 'Informatie terrein':
             except: "done"
 
        
-# Maak de map
-m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
-# Polyline toevoegen
-coordinates = [
-    [52.397554, 4.774426],
-    [52.393480, 4.772532], 
-    [52.393480, 4.806433],
-    [52.397554, 4.802787],
-    [52.397554, 4.774426]
-]
-folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
-# Voeg markers toe op basis van gegevens in APN_data
-dfp_data = pd.read_csv("Data/DutchFreshPort.csv",sep=";")
-APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv",sep=",")
-
-dfp_data.dropna(axis=0, how='all', inplace=True)
-dfp_data = dfp_data.drop(dfp_data.index[-1])
-for index, row in APN_data.iterrows():
-    marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
+    # Maak de map
+    m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
+    # Polyline toevoegen
+    coordinates = [
+        [52.397554, 4.774426],
+        [52.393480, 4.772532], 
+        [52.393480, 4.806433],
+        [52.397554, 4.802787],
+        [52.397554, 4.774426]
+    ]
+    folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
+    # Voeg markers toe op basis van gegevens in APN_data
+    dfp_data = pd.read_csv("Data/DutchFreshPort.csv",sep=";")
+    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv",sep=",")
+    
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
+    for index, row in APN_data.iterrows():
+        marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 
 # Toon de map
 st_folium(m, width=700, height=500)
