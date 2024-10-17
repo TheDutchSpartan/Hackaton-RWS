@@ -3,8 +3,8 @@ import pandas as pd
 import folium
 import geopy
 from geopy.geocoders import Nominatim
-# from steamlit_gallery import apps, componetns
-# from streamlit_gallery import page_group
+import datetime
+
 
 blog_post=st.sidebar.radio('Onderdelen',
                  ["Introductie", "Aannames", "Informatie terrein","Energiebehoefte","Conclusie/Aanbevelingen"])
