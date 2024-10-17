@@ -79,7 +79,7 @@ elif blog_post == 'Aannames':
 
 #======================================================================================================================================================================
 elif blog_post == 'Informatie terrein':
-    st.header('Imformatie Terreinen')
+    st.header('Informatie Terreinen')
     st.write("""
     Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
@@ -196,6 +196,7 @@ st_folium(m, width=700, height=500)
 
 # ======================================================================================================================================================================
 elif blog_post == 'Energiebehoefte':
+
   st.header("Energiebehoefte", divider='gray')
   st.write("De hoeveelheid kilowattuur (kWh) blijft het belangrijkste om te bepalen als het gaat om het verduurzamen van de mobiliteit van een bedrijventerrein. Deze statistiek laat zien hoeveel kWh elk bedrijf nodig heeft om alles elektrisch te kunnen maken. Door eerst baseline te bepalen, kan er vanuit daar een voorspelling gedaan worden over hoeveelheid kWh die nodig is om in 2050 helemaal elektrisch te zijn. Deze voorspelling komt voort uit de data en de eerder genoemde aannames.")
   st.write("Kies hieronder een sector en selecteer daarna in de legenda welk bedrijf u wilt analyseren. De grafiek zal alle bedrijven, van het bedrijventerrein Dutch Fresh Port, tonen die werkzaam zijn in die sector met de voorspelling hoeveel kWh er nodig is voor elke dag in 2025.") 
