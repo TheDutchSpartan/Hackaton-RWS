@@ -14,9 +14,8 @@ blog_post=st.sidebar.radio('Onderdelen',
 
 # ======================================================================================================================================================================
 if blog_post == 'Introductie':
-  st.header('Inleiding')
+  st.header('Introductie')
   st.write("""
-### Introductie
 
 Welkom bij dit dashboard, dat inzicht biedt in de energietransitie van mobiliteit op twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en uitdagingen als het gaat om de verduurzaming van mobiliteit.
 
