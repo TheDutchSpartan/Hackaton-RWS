@@ -78,10 +78,10 @@ elif blog_post == 'Aannames':
   """)
 
 #======================================================================================================================================================================
-if blog_post == 'Informatie terrein':
+elif blog_post == 'Informatie terrein':
     st.header('Imformatie Terreinen')
     st.write("""
-    Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
+    Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
     
     Dutch Fresh Port, gelegen in de regio Ridderkerk en Barendrecht, staat bekend als een belangrijk knooppunt voor de agro- en verslogistiek. Het bedrijventerrein 
@@ -121,8 +121,11 @@ if blog_post == 'Informatie terrein':
                     folium.Marker(location=[locatie.latitude, locatie.longitude],
                                   popup=popup,
                                   tooltip=tooltip).add_to(m)
-            except: "done"
-
+                else:
+                    print(f"Adres niet gevonden: {adres}")
+            except Exception as e:
+                print(f"Fout bij geocoderen van {adres}: {e}")
+                    
         # Maak de map
         m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap")
         
@@ -165,7 +168,10 @@ if blog_post == 'Informatie terrein':
                     folium.Marker(location=[locatie.latitude, locatie.longitude],
                                   popup=popup,
                                   tooltip=tooltip).add_to(m)
-            except: "done"
+                else:
+                    print(f"Adres niet gevonden: {adres}")
+            except Exception as e:
+                print(f"Fout bij geocoderen van {adres}: {e}")
 
 # Maak de map
 m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
@@ -186,8 +192,6 @@ for index, row in APN_data.iterrows():
 
 # Toon de map
 m
-
-  
 
 # ======================================================================================================================================================================
 elif blog_post == 'Energiebehoefte':
