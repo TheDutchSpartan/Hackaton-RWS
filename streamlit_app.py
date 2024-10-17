@@ -72,7 +72,7 @@ elif blog_post == 'Aannames':
   """)
 
 #======================================================================================================================================================================
-if blog_post == 'Inforamtie terrein':
+if blog_post == 'Informatie terrein':
     st.header('Imformatie Terreinen')
     st.write("""
     Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
