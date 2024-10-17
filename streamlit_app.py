@@ -185,6 +185,11 @@ coordinates = [
 ]
 folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
 # Voeg markers toe op basis van gegevens in APN_data
+dfp_data = pd.read_csv("Data/DutchFreshPort.csv",sep=";")
+    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv",sep=",")
+
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
 for index, row in APN_data.iterrows():
     marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 # Toon de map
