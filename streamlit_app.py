@@ -133,7 +133,7 @@ if blog_post == 'Informatie terrein':
                 print(f"Fout bij geocoderen van {adres}: {e}")
 
         # Maak de map
-        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap"))
+        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap")
         
         # Polyline toevoegen
         coordinates = [
