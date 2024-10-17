@@ -1,0 +1,114 @@
+﻿Bedrijfsnaam;Producten;Sector;Aantal trucks gestationeerd op terrein;Movements van trucks;uitbesteed;Aantal bestelbussen gestationeerd op terrein;Aantal elektrische voertuigen;aantal hybride;Aantal personen auto's;Gemiddeld gewicht vrachtwagens;Internationaal/Binnenlands;Aantal parkeerplekken;Aantal bezette parkeerplekken ;Aantal laad/losplekken;Aantal bezette laad/losplekken;Adres;Lat;LNG;Aantal gereden kilometers trucks per dag;Aantal gereden kilometers bestelbussen per dag;Aantal gereden kilometers elektrische voertuigen per dag;Aantal gereden kilometers personenauto's per dag;Rittenpatronen;Laadpatronen;Aantal ritten per dag trucks;Aantal ritten per dag bestelbussen;Aantal ritten per dag elektrische voertuigen;Aantal ritten per dag personenauto's;Energieverbruik bestelbussen (kWh);Energieverbruik elektrische voertuigen (kWh);Energieverbruik personenauto's (kWh);Energieverbruik trucks (kWh);Geschatte laadtijden (min);Aantal Trucks;Aantal bestelauto's;Aantal elektrische voertuigen;Aantal personenauto's;Opmerking
+4 Fruit Company;Fruit, groente;Handel;0;25;10;0;1;1;18;30000;Internationaal;23;13;10;7;Handelsweg 30, 2988 DB ridderkerk, nederland;51,862219;4,585057;450;150;50;30;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;5;5;3;5;30;20;10;40;30;5;10;2;2;
+A.F.L. Barendrecht;Fruit, groente;Transport, logistiek;22;55;0;1;1;1;24;30000;Internationaal;30;;;;Oosteinde 5, 2991 LG barendrecht, nederland;51,861792;4,553497;450;200;60;20;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;6;12;4;2;35;20;10;45;35;5;8;1;1;
+Agrofair Benelux;Fruit;Detailhandel (D2C);0;13;4;0;1;1;20;30000;Internationaal;23;19;5;5;Koopliedenweg 10, 2991 LN barendrecht, nederland;51,865375;4,554785;450;250;70;25;05:00 - 15:00;04:00-06:00, 11:00-13:00, 17:00-19:00;8;15;5;3;40;25;12;50;40;8;12;2;3;
+Allround Cargo Handling;;Logistiek;3;73;20;2;22;4;119;38000;Internationaal;149;20;29;6;Selderijweg 80, 2988 DG, ridderkerk, nederland;51,860678;4,569325;800;300;100;40;04:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;10;20;6;4;50;30;15;60;50;6;10;1;2;
+Ambtman jr. Import Export B.V.;Food;Handel;0;5;2;0;1;0;5;30000;Internationaal;4;3;2;0;Oosteinde 15, 2991 LG barendrecht, nederland;51,861404;4,553668;1500;400;80;35;05:00 - 17:00;03:00-05:00, 10:00-12:00, 16:00-18:00;15;25;5;4;60;25;15;75;45;10;15;3;2;
+Bakker Barendrecht;Fruit, groente;Handel, logistiek;160;400;0;0;11;8;282;30000;Internationaal;352;240;51;32;Handelsweg 20, 2988 DB ridderkerk, nederland;51,860154;4,569893;800;200;60;25;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;3;10;4;2;30;20;10;40;30;4;8;2;1;
+Berkman Groep;Brandstoffen, tankstations;Energie;10;25;0;0;1;1;30;34000;Binnenlands;36;;;;Tuindersweg 36, 2991 LR barendrecht, nederland;  ;4,556497;1500;250;50;20;05:00 - 15:00;04:00-06:00, 11:00-13:00, 17:00-19:00;5;15;5;3;40;25;12;50;40;6;10;1;1;
+Best trucks;Vrachtwagens;Automotive;0;0;0;1;1;1;27;30000;Binnenlands;34;6;0;0;Donk2-4, 2991 LE barendrecht, nederland;51,86267117;4,551342098;450;300;100;30;06:00 - 16:00;07:00-09:00, 14:00-16:00, 20:00-22:00;8;18;6;3;45;30;12;55;35;7;10;1;2;
+Blankendaal Cold Stores B.V.;Koel/vriesopslag;Logistiek;0;25;8;0;2;0;5;30000;Internationaal;35;23;10;5;Handelsweg 50, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;1500;150;40;20;07:00 - 15:00;05:00-07:00, 12:00-14:00, 18:00-20:00;5;8;2;2;25;15;8;35;25;12;15;2;3;
+Broom Frio Holding;Fruit;Handel, Logistiek;1;28;9;1;1;1;32;30000;Internationaal;40;29;11;6;Handelsweg 40, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;1500;300;100;30;05:00 - 15:00;03:00-05:00, 10:00-12:00, 16:00-18:00;8;18;6;3;50;30;15;70;50;8;10;2;1;volledig automatisch vestiging
+CMR Holland B.V.;Fruit, groente;Handel, logistiek;0;53;18;0;0;0;2;30000;Internationaal;66;18;21;10;Peterselieweg 112, 2988 DH ridderkerk, nederland;51,861045;4,569052;450;350;90;30;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;5;3;50;25;12;65;50;10;12;3;1;
+Consistence;;Onderzoek/Advies;0;0;0;1;2;1;48;30000;Internationaal;60;6;0;0;Fennaweg 53, 2991 ZA barendrecht, nederland;51,86567654;4,539055401;450;400;80;25;06:00 - 18:00;05:00-07:00, 12:00-14:00, 18:00-20:00;12;25;5;2;60;30;15;80;45;6;8;2;2;
+Davis Global B.V.;Voedsel;Handel, logistiek, verwerking;0;5;2;1;0;0;7;30000;Internationaal;9;8;2;0;Handelsweg 200, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;200;250;50;20;06:00 - 14:00;07:00-09:00, 14:00-16:00, 21:00-23:00;4;12;3;2;35;20;10;45;30;5;10;1;1;
+Davis Pure Foods B.V.;Voedsel;Verwerking, logistiek;0;0;0;1;3;1;20;30000;Binnenlands;25;;;;Handelsweg 200, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;1500;300;60;25;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;7;18;4;3;45;25;12;60;40;7;10;1;1;neemt niet op
+Dijco;;Vervoer;50;125;0;1;3;2;82;30000;Internationaal;103;64;8;2;Koopliedenweg 2, 2991 LN barendrecht, nederland;51,85637944;4,559407682;800;350;70;30;06:00 - 17:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;5;3;50;30;15;65;50;6;8;2;1;neemt niet op
+Europe Retail Packing;Handel, verpakking, value-added logistics (VAL);Handel, logistiek;5;78;26;1;7;5;164;30000;Internationaal;205;102;31;26;Selderijweg 90, 2988 DG, ridderkerk, nederland;51,8605;4,569903;1500;200;50;20;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;4;10;3;2;30;20;10;40;30;5;6;1;1;terug bellen vandaag
+Fortuna Frutos;"Groenten, fruit, import (groothandel); VAL.";Handel, logistiek;3;55;18;0;2;1;42;30000;Internationaal;53;25;22;10;Peterselieweg 112, 2988 DH ridderkerk, nederland;51,861045;4,569052;450;250;60;25;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;5;15;4;3;40;25;12;55;40;6;10;1;2;morgen terug bellen indien nodig
+Four Seasons Fruit Supply B.V.;Fruit;Handel, logistiek, transport;1;15;5;1;1;1;23;30000;Internationaal;29;22;6;4;Gebroken Meeldijk 52, 2991 VD barendrecht, nederland;51,85456968;4,557407212;1500;300;100;35;05:00 - 15:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;6;4;50;30;15;60;45;4;6;2;1;
+Fresh Pack Logistics;Fruit;Logistiek, transport;4;65;22;1;2;1;50;30000;Internationaal;62;46;26;7;Handelscentrum ZHZ 55, 2991 LD barendrecht, nederland;51,8590352;4,553874168;800;350;90;30;06:00 - 16:00;03:00-05:00, 10:00-12:00, 16:00-18:00;10;20;5;3;50;25;12;65;50;8;10;1;1;
+Fresh Pride;Fruit;Handel;1;15;5;1;2;1;48;30000;Internationaal;60;;;;Handelscentrum ZHZ 55, 2991 LD barendrecht, nederland;51,8590352;4,553874168;800;400;80;25;05:00 - 17:00;05:00-07:00, 12:00-14:00, 18:00-20:00;12;25;5;3;60;30;15;80;55;10;12;2;2;
+Fresh2You;Groenten, fruit;Handel;2;15;4;0;1;1;22;30000;Internationaal;27;10;6;0;Transportweg 19, 2991 LV barendrecht, nederland;51,85658009;4,557840765;800;300;70;30;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;5;3;50;30;12;65;50;6;8;1;1;
+Frigoscandia B.V.;Voedsel;Logistiek, transport;1;15;4;0;2;0;2;30000;Internationaal;;;;;Handelsweg 30, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;800;250;60;20;06:00 - 14:00;07:00-09:00, 14:00-16:00, 21:00-23:00;5;15;4;2;40;20;10;50;40;5;8;1;1;
+Frosinn B.V.;Fruit, bevroren;Handel, logistiek, transport;1;18;6;1;5;4;120;30000;Internationaal;150;43;7;1;Handelsweg 190, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;1500;350;90;30;06:00 - 16:00;03:00-05:00, 10:00-12:00, 16:00-18:00;10;20;5;3;50;25;12;70;50;8;10;2;1;
+FruitOne Europe B.V.;Fruit;Handel,logistiek;0;25;8;0;2;0;10;30000;Internationaal;12;3;10;2;Peterselieweg 110, 2988 DH ridderkerk, nederland;51,861297;4,569637;1500;200;50;25;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;4;10;3;2;30;20;10;40;30;4;6;1;1;willen niet mee werken
+Frukar B.V.;Fruit;Handel;0;35;12;0;1;0;16;30000;Internationaal;20;14;14;1;Transportweg 17, 2991 LV barendrecht, nederland;51,85658009;4,557840765;800;300;70;30;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;5;3;50;30;15;65;50;6;8;1;1;morgen terug bellen indien nodig
+Frutyco B.V.;Groenten, fruit;Handel;0;5;2;1;0;0;5;30000;Internationaal;6;3;2;1;Handelsweg 82, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;450;400;80;25;05:00 - 17:00;07:00-09:00, 14:00-16:00, 20:00-22:00;12;25;5;3;60;25;12;75;45;5;10;1;1;
+Hars & Hagebauer B.V.;Groenten, fruit;Handel;0;55;18;0;8;5;167;21000;Internationaal;209;132;22;13;Selderijweg 90, 2988 DG, ridderkerk, nederland;51,8605;4,569903;800;250;60;20;06:00 - 14:00;04:00-06:00, 11:00-13:00, 17:00-19:00;5;12;3;2;35;20;10;45;35;6;8;1;1;
+Hoofdman & Roodzand B.V.;Groenten, fruit;Handel, logistiek;2;40;14;1;2;1;48;30000;Internationaal;60;49;16;5;Handelscentrum ZHZ 55, 2991 LD barendrecht, nederland;51,8590352;4,553874168;800;300;70;30;06:00 - 16:00;05:00-07:00, 12:00-14:00, 18:00-20:00;10;20;4;3;50;25;12;65;50;8;10;2;2;neemt niet op
+Jaguar the Fresh Company B.V.;Fruit;Handel;4;55;18;1;7;5;167;30000;Binnenlands;209;132;22;13;Selderijweg 90D, 2988 DG, ridderkerk, nederland;51,8605;4,569903;800;200;50;25;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;4;10;3;2;30;20;10;40;30;5;7;1;1;
+JP Fruit Packing Service;Fruit (opslag, verpakken);Logistiek;0;5;2;1;0;0;5;30000;Binnenlands;6;4;2;0;Handelsweg 83, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;450;300;100;35;06:00 - 16:00;05:00-07:00, 12:00-14:00, 18:00-20:00;10;20;6;4;50;30;15;70;50;7;10;1;1;16:30 terug bellen
+Keelings Fresh International Limited;Groenten, fruit, bloemen;Handel;0;8;3;1;1;1;27;30000;Internationaal;34;21;3;2;Handelsweg 40, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;200;350;90;30;06:00 - 17:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;5;3;50;25;12;65;50;6;8;1;1;neemt niet op
+KivitsGoes Handling;;Logistiek/Opslag;150;375;0;1;4;3;102;30000;Internationaal;127;36;50;9;Handelscentrum ZHZ 40b, 2991 LD barendrecht, nederland;51,8590352;4,553874168;200;250;60;20;06:00 - 14:00;07:00-09:00, 14:00-16:00, 21:00-23:00;4;12;3;2;35;20;10;45;35;4;6;1;1;nummer bestaat niet
+Koninklijke Euser;;transport, logistiek;100;250;0;3;10;7;242;28000;Internationaal;303;146;10;0;Ebweg 7, 2991 LS barendrecht, nederland;51,85284498;4,561533474;800;400;80;25;05:00 - 17:00;06:00-08:00, 13:00-15:00, 19:00-21:00;12;25;5;3;60;30;15;80;60;10;15;3;2;neemt niet op
+Koring;Expeditie, zakelijke dienstverlenening;Logistiek;0;13;4;1;0;0;8;28000;Internationaal;10;3;5;0;Zweth 26, 2991 LH barendrecht, nederland;51,86150304;4,549010504;1500;300;70;30;06:00 - 16:00;05:00-07:00, 12:00-14:00, 18:00-20:00;10;20;5;3;50;25;12;65;50;5;8;1;1;
+Lazy Foods;Levensmiddelen (dips, spreads);Verwerking, productie;0;15;5;1;1;1;32;30000;Binnenlands;40;21;6;3;Handelsweg 150, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;1500;200;50;25;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;4;10;3;2;30;20;10;40;30;6;10;1;1;
+LCL Logistics;Logistiek dienstverlener perishables;Transport, logistiek;1;28;10;1;1;1;32;30000;Binnenlands;40;19;11;6;Handelsweg 40, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;450;250;60;20;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;5;12;4;2;35;20;10;45;35;4;6;1;1;willen niet mee werken
+Looije Packing;Verpakken, behandelen groenten, fruit;logistiek;0;13;2;1;10;1;32;30000;Internationaal;40;16;0;0;Peterselieweg 110, 2988 DH ridderkerk, nederland;51,861297;4,569637;800;300;100;35;05:00 - 15:00;07:00-09:00, 14:00-16:00, 21:00-23:00;10;20;6;4;50;30;15;60;40;5;8;1;1;16:30 terugbellen
+Meeder Group;Groenten, fruit, zuivel;logistiek;5;30;6;0;20;2;63;24000;Internationaal;79;39;12;3;Donk 15, 2991 LE barendrecht, nederland;51,86267117;4,551342098;1500;400;80;30;06:00 - 18:00;06:00-08:00, 13:00-15:00, 19:00-21:00;12;25;5;3;60;25;12;75;55;7;10;2;1;willen niet mee werken
+Niva Fresh International;Groenten, fruit;Handel;0;12;2;0;4;0;10;30000;Internationaal;;;;;Handelsweg 30, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;800;250;60;25;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;4;12;3;2;35;20;10;45;30;5;6;1;1;
+OV Fruit B.V.;Fruit;Handel;3;55;19;1;5;4;132;30000;Internationaal;165;35;22;0;Selderijweg 90, 2988 DG, ridderkerk, nederland;51,8605;4,569903;450;300;70;30;06:00 - 16:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;5;3;50;30;15;65;50;8;10;1;1;Alle personeels autos moeten electrisch zijn
+Purnatur;Fruit;Handel;0;28;9;0;1;1;32;30000;Internationaal;40;19;11;6;Handelsweg 40, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;800;400;80;25;05:00 - 17:00;06:00-08:00, 13:00-15:00, 19:00-21:00;12;25;5;3;60;30;15;80;60;10;12;2;2;
+R&M Forwarding;Logistieke dienstverlening;Logistiek;0;130;43;0;10;3;88;32000;Internationaal;110;19;52;9;Peterselieweg 110-112, 2988 DH ridderkerk, nederland;51,861297;4,569637;800;250;70;30;06:00 - 16:00;05:00-07:00, 12:00-14:00, 18:00-20:00;10;20;5;3;50;25;12;65;50;6;8;1;1;
+ReFruit B.V.;Avocado olie;Verwerking;0;18;6;1;2;2;52;30000;Internationaal;65;31;7;1;Handelsweg 190, 2988 DC ridderkerk, nederland;51,8609276;4,56141703;800;300;60;20;06:00 - 14:00;06:00-08:00, 13:00-15:00, 19:00-21:00;4;12;3;2;35;20;10;45;35;5;8;1;1;
+Rivafruit B.V.;Groenten, fruit;Handel;0;10;3;1;1;1;24;28000;Internationaal;30;12;4;4;Koopliedenweg 5, 2991 LN, barendrecht, nederland;51,85637944;4,559407682;450;400;70;30;06:00 - 16:00;03:00-05:00, 10:00-12:00, 16:00-18:00;10;20;4;3;50;30;15;65;50;6;8;2;1;
+Rungis B.V.;Groenten, fruit, groothandel;Handel;5;15;0;20;1;0;12;28000;Internationaal;15;14;6;0;Transportweg 34, 2991 LV barendrecht, nederland;51,85658009;4,557840765;450;350;90;30;06:00 - 17:00;07:00-09:00, 14:00-16:00, 21:00-23:00;10;20;5;3;50;25;12;65;50;5;7;1;1;
+Sawari Fresh International B.V.;Groenten;Handel;0;10;2;0;2;0;12;28000;Internationaal;15;9;4;1;Transportweg 22, 2991 LV barendrecht, nederland;51,85658009;4,557840765;800;200;50;25;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;4;10;3;2;30;20;10;40;30;4;6;1;1;willen niet mee werken
+The Greenery;Voedsel;Logistiek;100;315;50;1;7;2;80;30000;Internationaal;100;15;126;3;Spoorwegemplacement 1, 2991 VT barendrecht, nederland;51,85337066;4,557379284;800;400;80;30;05:00 - 17:00;06:00-08:00, 13:00-15:00, 19:00-21:00;12;25;5;3;60;30;15;80;60;7;10;2;1;
+Torres Tropical B.V.;Fruit;Handel;0;3;1;1;0;0;5;30000;Internationaal;6;4;0;0;Zuideinde 73, 2991 LJ barendrecht, nederland;51,8584882;4,551596527;800;350;90;25;06:00 - 17:00;03:00-05:00, 10:00-12:00, 16:00-18:00;10;20;5;3;50;25;12;65;50;8;10;2;2;
+Van Gelder Groente & Fruit;AGF;Handel,logistiek;60;150;0;1;3;2;80;30000;Internationaal;100;21;39;13;Krommeweg 10, 2988 CB ridderkerk, nederland;51,86787457;4,560117992;880;400;80;30;06:00 - 18:00;05:00-07:00, 12:00-14:00, 18:00-20:00;12;25;5;3;60;30;15;80;60;10;15;3;2;
+Van Ooijen Citrus B.V.;Groenten, fruit;Handel;0;15;5;0;0;0;5;35000;Internationaal;6;5;6;4;Handelsweg 149, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;800;300;70;30;06:00 - 16:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;4;3;50;25;12;65;50;6;8;1;1;1530 terugbellen
+Van Vugt Kruiden;Groenten, kruiden;Handel;1;10;2;1;2;1;40;30000;Internationaal;50;39;4;4;Hoogzandweg 16, 2988 DA ridderkerk, nederland;51,8605257;4,576871158;450;350;90;30;06:00 - 17:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;5;3;50;30;15;70;50;5;10;1;1;
+VDH Forwarding & Warehousing B.V.;Logistieke dienstverlening (warehousing, vervoer etc.);Logistiek ;60;150;0;1;4;0;16;32000;Internationaal;20;14;15;11;Handelsweg 180, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;800;200;50;20;06:00 - 14:00;07:00-09:00, 14:00-16:00, 21:00-23:00;4;10;3;2;30;20;10;40;30;4;6;1;1;
+VerDi Import B.V.;Groenten, fruit;Handel, logistiek;0;15;6;0;7;0;10;30000;Internationaal;12;7;6;4;Koopliedenweg 38, 2991 LN barendrecht, nederland;51,85637944;4,559407682;800;250;60;25;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;5;12;3;2;35;20;10;45;35;4;6;1;1;willen niet mee werken
+Verita Holland B.V.;Fruit;Handel;2;25;8;1;0;0;5;30000;Internationaal;6;3;10;7;Handelsweg 35, 2988 DB ridderkerk, nederland;51,8609276;4,56141703;450;300;70;30;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;4;3;50;25;12;65;50;8;10;2;1;
+Very Fruity B.V.;Fruit (retail);Detailhandel (D2C);0;0;0;0;1;0;3;30000;Internationaal;0;0;0;;Handelsweg 180, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;450;250;60;20;06:00 - 14:00;05:00-07:00, 12:00-14:00, 18:00-20:00;4;12;3;2;30;20;10;40;30;5;7;1;1;
+VGK Cool Logistics B.V.;Koel/vrieslogistiek;Logistiek, transport;0;55;18;0;4;2;80;38000;Internationaal;100;71;22;12;Selderijweg 90, 2988 DG ridderkerk, nederland;51,8605;4,569903;800;300;70;30;06:00 - 16:00;06:00-08:00, 13:00-15:00, 19:00-21:00;10;20;5;3;50;30;15;70;50;6;8;1;1;willen niet mee werken
+Zoutewelle Import Export B.V.;Groenten, fruit;Handel, logistiek;2;38;13;;2;1;40;30000;Internationaal;50;13;15;10;Handelsweg 140, 2988 DC ridderkerk, nederland;51,85917042;4,56192303;800;350;90;25;06:00 - 17:00;04:00-06:00, 11:00-13:00, 17:00-19:00;10;20;5;2;50;25;12;65;50;6;10;1;1;
+;;;;;;;;;;;;;;;;;;;1500;400;80;30;06:00 - 18:00;05:00-07:00, 12:00-14:00, 18:00-20:00;12;25;5;3;60;30;15;80;60;10;12;3;2;
+;;;15% van wat uit wordt uit besteed hebben we zelf;laad/los plek word 2 tot 3x per dag gebruikt;;;4% van de autos zijn elektrisch;3% van de autos zijn hybride met plug in;80% van de parkeerplekken zijn bezet;;;;;;;;;;450;300;70;25;06:00 - 16:00;03:00-05:00, 10:00-12:00, 16:00-18:00;10;20;4;3;50;25;12;65;50;6;8;1;1;willen niet mee werken
+;;;;;;;195;86;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
