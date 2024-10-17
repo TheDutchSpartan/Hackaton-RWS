@@ -482,6 +482,7 @@ if blog_post == 'Energiebehoefte':
       st.plotly_chart(fig_overig_sector)
 # ======================================================================================================================================================================
 elif blog_post == 'Conclusie/Aanbevelingen':
+  st.header('Conclusie/Aanbevelingen')
   st.write("""
 **De toekomstige energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 aanzienlijk toenemen, voornamelijk door de groeiende vraag naar transport en logistieke diensten in de vers- en levensmiddelenindustrie. Om aan deze stijgende vraag te voldoen, is een strategische aanpak nodig die gericht is op duurzame groei en een efficiënte energietransitie.**
 
