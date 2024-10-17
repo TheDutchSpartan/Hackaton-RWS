@@ -78,136 +78,10 @@ elif blog_post == 'Aannames':
   """)
 
 #======================================================================================================================================================================
-# elif blog_post == 'Informatie terrein':
-#     st.header('Imformatie Terreinen')
-#     st.write("""
-#     Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
-#     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
-    
-#     Dutch Fresh Port, gelegen in de regio Ridderkerk en Barendrecht, staat bekend als een belangrijk knooppunt voor de agro- en verslogistiek. Het bedrijventerrein 
-#     herbergt tal van bedrijven die zich richten op de productie, verwerking, en distributie van verse producten, zoals groenten, fruit en bloemen. Dankzij de 
-#     nabijheid van logistieke hubs en goede verbindingen met de Rotterdamse haven en het wegennet, is het een strategische locatie voor bedrijven in de voedselketen.
-    
-#     Aan de andere kant ligt Amsterdam Poort Noord, een bedrijventerrein in het noorden van Amsterdam. Dit terrein richt zich voornamelijk op een mix van commerciële 
-#     en industriële bedrijven, met een focus op distributie, productie en handel. De nabijheid van het centrum van Amsterdam en de grote internationale luchthaven 
-#     Schiphol maakt het een aantrekkelijke locatie voor bedrijven die snelle toegang tot zowel de stad als internationale markten nodig hebben.
-    
-#     Waar Dutch Fresh Port sterk gericht is op versproducten en logistiek, biedt Amsterdam Poort Noord een breder scala aan sectoren. Het verschil in locatie zorgt 
-#     ervoor dat beide terreinen verschillende logistieke voordelen hebben: Dutch Fresh Port profiteert van de nabijheid van de Rotterdamse haven, terwijl Amsterdam 
-#     Poort Noord dicht bij de hoofdstad en Schiphol ligt.""")
-    
-#     bedrijventerrein = st.selectbox("Kies een model:", ["Dutch Fresh Port", "Amsterdam Poort Noord"])
-    
-#     if bedrijventerrein == 'Dutch Fresh Port':
-
-#         # Functie om markers toe te voegen
-#         def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
-#             geolocator = Nominatim(user_agent="mijn_applicatie")
-#             try:
-#                 locatie = geolocator.geocode(adres)
-#                 if locatie:
-#                     # HTML layout voor de popup
-#                     html = f"""
-#                     <div style="width:300px;">
-#                     <table style="width:100%;">
-#                     <tr><th>Adres:</th><td>{popup_adres}</td></tr>
-#                     <tr><th>Sector:</th><td>{popup_sector}</td></tr>
-#                     </table>
-#                     </div>
-#                     """
-#                     popup = folium.Popup(html, max_width=300)
-                
-#                     # Marker toevoegen met aangepaste popup
-#                     folium.Marker(location=[locatie.latitude, locatie.longitude],
-#                                   popup=popup,
-#                                   tooltip=tooltip).add_to(m)
-#                 else:
-#                     print(f"Adres niet gevonden: {adres}")
-#             except Exception as e:
-#                 print(f"Fout bij geocoderen van {adres}: {e}")
-                    
-#         # Maak de map
-#         m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap")
-        
-#         # Polyline toevoegen
-#         coordinates = [
-#             [51.86467654, 4.544055401],
-#             [51.870874572133, 4.5701179918743], 
-#             [51.86086497557, 4.5899717563522],
-#             [51.85067, 4.55772],
-#             [51.86467654, 4.544055401]
-#         ]
-#         folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
-
-#         # Voeg markers toe op basis van gegevens in dfp_data
-#         for index, row in dfp_data.iterrows():
-#             marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
-
-#         # Toon de map
-#         m
-        
-#     elif bedrijventerrein == 'Amsterdam Poort Noord':
-#         # Functie om markers toe te voegen
-#         def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
-#             geolocator = Nominatim(user_agent="mijn_applicatie")
-#             try:
-#                 locatie = geolocator.geocode(adres)
-#                 if locatie:
-#                     # HTML layout voor de popup
-#                     html = f"""
-#                     <div style="width:300px;">
-#                     <table style="width:100%;">
-#                     <tr><th>Adres:</th><td>{popup_adres}</td></tr>
-#                     <tr><th>Sector:</th><td>{popup_sector}</td></tr>
-#                     </table>
-#                     </div>
-#                     """
-#                     popup = folium.Popup(html, max_width=300)
-                    
-#                     # Marker toevoegen met popup
-#                     folium.Marker(location=[locatie.latitude, locatie.longitude],
-#                                   popup=popup,
-#                                   tooltip=tooltip).add_to(m)
-#                 else:
-#                     print(f"Adres niet gevonden: {adres}")
-#             except Exception as e:
-#                 print(f"Fout bij geocoderen van {adres}: {e}")
-
-# # Maak de map
-# m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
-
-# # Polyline toevoegen
-# coordinates = [
-#     [52.397554, 4.774426],
-#     [52.393480, 4.772532], 
-#     [52.393480, 4.806433],
-#     [52.397554, 4.802787],
-#     [52.397554, 4.774426]
-# ]
-# folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
-
-# # Voeg markers toe op basis van gegevens in APN_data
-# for index, row in APN_data.iterrows():
-#     marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
-
-# # Toon de map
-# m
-import pandas as pd
-import streamlit as st
-from geopy.geocoders import Nominatim
-import folium
-from streamlit_folium import st_folium  # Import st_folium
-
-if blog_post == 'Informatie terrein':
-    dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
-    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
-    
-    dfp_data.dropna(axis=0, how='all', inplace=True)
-    dfp_data = dfp_data.drop(dfp_data.index[-1])
-
-    st.header('Informatie Terreinen')  # Corrected typo
+elif blog_post == 'Informatie terrein':
+    st.header('Imformatie Terreinen')
     st.write("""
-    Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
+    Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
     
     Dutch Fresh Port, gelegen in de regio Ridderkerk en Barendrecht, staat bekend als een belangrijk knooppunt voor de agro- en verslogistiek. Het bedrijventerrein 
@@ -221,16 +95,18 @@ if blog_post == 'Informatie terrein':
     Waar Dutch Fresh Port sterk gericht is op versproducten en logistiek, biedt Amsterdam Poort Noord een breder scala aan sectoren. Het verschil in locatie zorgt 
     ervoor dat beide terreinen verschillende logistieke voordelen hebben: Dutch Fresh Port profiteert van de nabijheid van de Rotterdamse haven, terwijl Amsterdam 
     Poort Noord dicht bij de hoofdstad en Schiphol ligt.""")
-
+    
     bedrijventerrein = st.selectbox("Kies een model:", ["Dutch Fresh Port", "Amsterdam Poort Noord"])
-
+    
     if bedrijventerrein == 'Dutch Fresh Port':
 
+        # Functie om markers toe te voegen
         def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
             geolocator = Nominatim(user_agent="mijn_applicatie")
             try:
                 locatie = geolocator.geocode(adres)
                 if locatie:
+                    # HTML layout voor de popup
                     html = f"""
                     <div style="width:300px;">
                     <table style="width:100%;">
@@ -240,6 +116,8 @@ if blog_post == 'Informatie terrein':
                     </div>
                     """
                     popup = folium.Popup(html, max_width=300)
+                
+                    # Marker toevoegen met aangepaste popup
                     folium.Marker(location=[locatie.latitude, locatie.longitude],
                                   popup=popup,
                                   tooltip=tooltip).add_to(m)
@@ -247,10 +125,10 @@ if blog_post == 'Informatie terrein':
                     print(f"Adres niet gevonden: {adres}")
             except Exception as e:
                 print(f"Fout bij geocoderen van {adres}: {e}")
-
-        # Create the map
-        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14)
-
+                    
+        # Maak de map
+        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap")
+        
         # Polyline toevoegen
         coordinates = [
             [51.86467654, 4.544055401],
@@ -261,12 +139,60 @@ if blog_post == 'Informatie terrein':
         ]
         folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
 
-        # Add markers from dfp_data
+        # Voeg markers toe op basis van gegevens in dfp_data
         for index, row in dfp_data.iterrows():
             marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 
-        # Show the map
-        st_folium(m, width=700, height=500)  # Adjust width and height as needed
+        # Toon de map
+        m
+        
+    elif bedrijventerrein == 'Amsterdam Poort Noord':
+        # Functie om markers toe te voegen
+        def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
+            geolocator = Nominatim(user_agent="mijn_applicatie")
+            try:
+                locatie = geolocator.geocode(adres)
+                if locatie:
+                    # HTML layout voor de popup
+                    html = f"""
+                    <div style="width:300px;">
+                    <table style="width:100%;">
+                    <tr><th>Adres:</th><td>{popup_adres}</td></tr>
+                    <tr><th>Sector:</th><td>{popup_sector}</td></tr>
+                    </table>
+                    </div>
+                    """
+                    popup = folium.Popup(html, max_width=300)
+                    
+                    # Marker toevoegen met popup
+                    folium.Marker(location=[locatie.latitude, locatie.longitude],
+                                  popup=popup,
+                                  tooltip=tooltip).add_to(m)
+                else:
+                    print(f"Adres niet gevonden: {adres}")
+            except Exception as e:
+                print(f"Fout bij geocoderen van {adres}: {e}")
+
+# Maak de map
+m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
+
+# Polyline toevoegen
+coordinates = [
+    [52.397554, 4.774426],
+    [52.393480, 4.772532], 
+    [52.393480, 4.806433],
+    [52.397554, 4.802787],
+    [52.397554, 4.774426]
+]
+folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
+
+# Voeg markers toe op basis van gegevens in APN_data
+for index, row in APN_data.iterrows():
+    marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
+
+# Toon de map
+st_folium(m, width=700, height=500)
+
 
 # ======================================================================================================================================================================
 elif blog_post == 'Energiebehoefte':
