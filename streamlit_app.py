@@ -95,7 +95,12 @@ elif blog_post == 'Informatie terrein':
     Waar Dutch Fresh Port sterk gericht is op versproducten en logistiek, biedt Amsterdam Poort Noord een breder scala aan sectoren. Het verschil in locatie zorgt 
     ervoor dat beide terreinen verschillende logistieke voordelen hebben: Dutch Fresh Port profiteert van de nabijheid van de Rotterdamse haven, terwijl Amsterdam 
     Poort Noord dicht bij de hoofdstad en Schiphol ligt.""")
+    dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
+    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
     
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
+
     bedrijventerrein = st.selectbox("Kies een model:", ["Dutch Fresh Port", "Amsterdam Poort Noord"])
     
     if bedrijventerrein == 'Dutch Fresh Port':
