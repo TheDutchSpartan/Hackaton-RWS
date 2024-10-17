@@ -16,7 +16,7 @@ blog_post=st.sidebar.radio('Onderdelen',
 if blog_post == 'Introductie':
   st.header('Inleiding')
 # ======================================================================================================================================================================
-if blog_post == 'Aannames':
+elif blog_post == 'Aannames':
   st.header('Aannames')
   st.write("""
     **Aannames voor de dataset van de hackathon:**
@@ -78,7 +78,7 @@ if blog_post == 'Aannames':
   """)
 
 #======================================================================================================================================================================
-if blog_post == 'Informatie terrein':
+elif blog_post == 'Informatie terrein':
     dfp_data = pd.read_csv("Data/DutchFreshPort.csv",sep=";")
     APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv",sep=",")
 
