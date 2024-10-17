@@ -7,12 +7,7 @@ import datetime
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from streamlit_folium import st_folium
-dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
-APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
-    
-dfp_data.dropna(axis=0, how='all', inplace=True)
-dfp_data = dfp_data.drop(dfp_data.index[-1])
+
 
 blog_post=st.sidebar.radio('Onderdelen',
                  ["Introductie", "Aannames", "Informatie terrein","Energiebehoefte","Conclusie/Aanbevelingen"])
@@ -84,7 +79,7 @@ elif blog_post == 'Aannames':
 
 #======================================================================================================================================================================
 elif blog_post == 'Informatie terrein':
-    st.header('Informatie Terreinen')
+    st.header('Imformatie Terreinen')
     st.write("""
     Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
@@ -100,12 +95,7 @@ elif blog_post == 'Informatie terrein':
     Waar Dutch Fresh Port sterk gericht is op versproducten en logistiek, biedt Amsterdam Poort Noord een breder scala aan sectoren. Het verschil in locatie zorgt 
     ervoor dat beide terreinen verschillende logistieke voordelen hebben: Dutch Fresh Port profiteert van de nabijheid van de Rotterdamse haven, terwijl Amsterdam 
     Poort Noord dicht bij de hoofdstad en Schiphol ligt.""")
-    dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
-    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
     
-    dfp_data.dropna(axis=0, how='all', inplace=True)
-    dfp_data = dfp_data.drop(dfp_data.index[-1])
-
     bedrijventerrein = st.selectbox("Kies een model:", ["Dutch Fresh Port", "Amsterdam Poort Noord"])
     
     if bedrijventerrein == 'Dutch Fresh Port':
@@ -201,12 +191,10 @@ for index, row in APN_data.iterrows():
     marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 
 # Toon de map
-st_folium(m, width=700, height=500)
-
+m
 
 # ======================================================================================================================================================================
-if blog_post == 'Energiebehoefte':
-
+elif blog_post == 'Energiebehoefte':
   st.header("Energiebehoefte", divider='gray')
   st.write("De hoeveelheid kilowattuur (kWh) blijft het belangrijkste om te bepalen als het gaat om het verduurzamen van de mobiliteit van een bedrijventerrein. Deze statistiek laat zien hoeveel kWh elk bedrijf nodig heeft om alles elektrisch te kunnen maken. Door eerst baseline te bepalen, kan er vanuit daar een voorspelling gedaan worden over hoeveelheid kWh die nodig is om in 2050 helemaal elektrisch te zijn. Deze voorspelling komt voort uit de data en de eerder genoemde aannames.")
   st.write("Kies hieronder een sector en selecteer daarna in de legenda welk bedrijf u wilt analyseren. De grafiek zal alle bedrijven, van het bedrijventerrein Dutch Fresh Port, tonen die werkzaam zijn in die sector met de voorspelling hoeveel kWh er nodig is voor elke dag in 2025.") 
