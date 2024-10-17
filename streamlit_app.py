@@ -8,6 +8,11 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 from streamlit_folium import st_folium
+dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
+    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
+    
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
 
 blog_post=st.sidebar.radio('Onderdelen',
                  ["Introductie", "Aannames", "Informatie terrein","Energiebehoefte","Conclusie/Aanbevelingen"])
