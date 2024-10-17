@@ -195,7 +195,7 @@ st_folium(m, width=700, height=500)
 
 
 # ======================================================================================================================================================================
-elif blog_post == 'Energiebehoefte':
+if blog_post == 'Energiebehoefte':
 
   st.header("Energiebehoefte", divider='gray')
   st.write("De hoeveelheid kilowattuur (kWh) blijft het belangrijkste om te bepalen als het gaat om het verduurzamen van de mobiliteit van een bedrijventerrein. Deze statistiek laat zien hoeveel kWh elk bedrijf nodig heeft om alles elektrisch te kunnen maken. Door eerst baseline te bepalen, kan er vanuit daar een voorspelling gedaan worden over hoeveelheid kWh die nodig is om in 2050 helemaal elektrisch te zijn. Deze voorspelling komt voort uit de data en de eerder genoemde aannames.")
