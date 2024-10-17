@@ -131,7 +131,7 @@ if blog_post == 'Informatie terrein':
                     print(f"Adres niet gevonden: {adres}")
             except Exception as e:
                 print(f"Fout bij geocoderen van {adres}: {e}")
-  elif bedrijventerrein == 'Amsterdam Poort Noord':
+if bedrijventerrein == 'Amsterdam Poort Noord':
         # Functie om markers toe te voegen
         def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
             geolocator = Nominatim(user_agent="mijn_applicatie")
