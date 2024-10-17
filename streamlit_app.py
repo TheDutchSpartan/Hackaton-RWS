@@ -481,4 +481,16 @@ if blog_post == 'Energiebehoefte':
   
       st.plotly_chart(fig_overig_sector)
 # ======================================================================================================================================================================
-#elif blog_post == 'Conclusie/Aanbevelingen':
+elif blog_post == 'Conclusie/Aanbevelingen':
+  st.write("""
+**De toekomstige energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 aanzienlijk toenemen, voornamelijk door de groeiende vraag naar transport en logistieke diensten in de vers- en levensmiddelenindustrie. Om aan deze stijgende vraag te voldoen, is een strategische aanpak nodig die gericht is op duurzame groei en een efficiënte energietransitie.**
+
+Een belangrijk doel is dat tegen 2050 alle voertuigen die worden gebruikt voor transport, zoals vrachtwagens, volledig elektrisch zijn. Deze transitie naar elektrisch vervoer is essentieel om de CO2-uitstoot te verminderen en te voldoen aan de klimaatdoelstellingen. Bovendien biedt het overstappen op elektrische voertuigen aanzienlijke voordelen op het gebied van luchtkwaliteit en geluidsoverlast, wat bijdraagt aan een schonere en gezondere leefomgeving op en rond deze bedrijventerreinen.
+
+**De verandering naar elektrische mobiliteit brengt echter ook verschillende uitdagingen met zich mee, met name op het gebied van logistiek en infrastructuur.** Het vereist een aanzienlijke uitbreiding van de laadinfrastructuur, met voldoende laadpunten voor vrachtwagens en andere elektrische voertuigen. Daarbij is het van cruciaal belang om een stabiele energievoorziening te waarborgen en slim energiemanagement toe te passen. Dit helpt niet alleen om piekbelastingen op te vangen, maar ook om energie efficiënt te gebruiken.
+
+**Om de benodigde veranderingen te realiseren, zijn verschillende strategieën en samenwerkingsverbanden van essentieel belang.** Dit omvat onder andere investeringen in innovatieve technologieën, zoals slimme laadoplossingen en duurzame energiebronnen, zoals zonne-energie en windenergie. Samenwerking met relevante stakeholders in de logistieke keten is ook van groot belang, van leveranciers tot lokale overheden, om een gezamenlijke visie te ontwikkelen en synergieën te creëren.
+
+**Hoewel de logistieke opgave groot is, is deze niet onhaalbaar.** Door tijdig te investeren in infrastructuur, innovatieve technologieën toe te passen en intensief samen te werken met partners in de keten, kunnen we deze overgang succesvol maken. Het is cruciaal om de komende jaren gericht te werken aan een stapsgewijze vergroening van de mobiliteit. Dit stelt ons in staat om in 2050 een volledig elektrisch en duurzaam transportsysteem te realiseren, dat niet alleen voldoet aan de energievraag, maar ook bijdraagt aan een leefbare en duurzame toekomst voor iedereen.
+""")
+
