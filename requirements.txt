@@ -3,4 +3,5 @@ folium
 numpy
 matplotlib
 pandas
+geopy
 nominatim
