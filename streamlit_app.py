@@ -534,32 +534,21 @@ elif blog_post == 'Conclusie/Aanbevelingen':
   st.write("""
 ### Conclusie en Aanbevelingen voor de Energietransitie van Mobiliteit op Bedrijventerreinen
 
-De toekomstige energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 aanzienlijk toenemen, voornamelijk door de groeiende vraag naar transport en logistieke diensten in de vers- en levensmiddelenindustrie. Om aan deze stijgende vraag te voldoen, is een strategische aanpak nodig die gericht is op duurzame groei en een efficiënte energietransitie. Een belangrijk doel is dat tegen 2050 alle voertuigen die worden gebruikt voor transport, zoals vrachtwagens, volledig elektrisch zijn. Deze transitie naar elektrisch vervoer is essentieel om de CO2-uitstoot te verminderen en te voldoen aan de klimaatdoelstellingen. Bovendien biedt het overstappen op elektrische voertuigen aanzienlijke voordelen op het gebied van luchtkwaliteit en geluidsoverlast, wat bijdraagt aan een schonere en gezondere leefomgeving op en rond deze bedrijventerreinen.
+De energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 sterk toenemen door de groeiende vraag naar transport. Om aan deze stijgende vraag te voldoen en tegen 2050 volledig elektrisch vervoer te realiseren, is een strategische aanpak nodig die zich richt op duurzame groei en efficiënte energietransitie. Elektrificatie van transport draagt bij aan het verminderen van CO2-uitstoot, betere luchtkwaliteit en minder geluidsoverlast.
 
-**De verandering naar elektrische mobiliteit brengt echter verschillende uitdagingen met zich mee, met name op het gebied van logistiek en infrastructuur.** Het vereist een aanzienlijke uitbreiding van de laadinfrastructuur, met voldoende laadpunten voor vrachtwagens en andere elektrische voertuigen. Daarbij is het van cruciaal belang om een stabiele energievoorziening te waarborgen en slim energiemanagement toe te passen. Dit helpt niet alleen om piekbelastingen op te vangen, maar ook om energie efficiënt te gebruiken.
+### Aanbevelingen
 
-### Aanbevelingen om de Overgang naar een Volledig Elektrisch Transportsysteem tegen 2050 te Faciliteren
+1. **Versnel de Uitrol van Laadinfrastructuur:** 
+   Investeer in een grootschalige uitbreiding van laadpunten, inclusief strategische locaties voor snellaadstations en samenwerking met publieke en private partijen voor co-financiering.
 
-1. **Versnel de Uitrol van Laadinfrastructuur**
-   Om de toenemende vraag naar elektrisch vervoer te ondersteunen, is het noodzakelijk om tijdig te investeren in een grootschalige uitbreiding van laadpunten op bedrijventerreinen.
-   - **Gerichte laadinfrastructuurplanning:** Plaats strategisch snellaadstations voor vrachtwagens en bestelbusjes, die inspelen op piekmomenten van logistieke bedrijven. Zorg daarnaast voor voldoende laadpunten voor personenauto’s van medewerkers en bezoekers.
-   - **Publiek-private samenwerking:** Werk samen met gemeenten, energieleveranciers en bedrijven om co-financiering van laadstations mogelijk te maken. Dit verlaagt de drempel voor bedrijven om over te stappen naar elektrisch vervoer.
+2. **Zorg voor Slim Energiemanagement:** 
+   Gebruik slimme laadoplossingen om opladen te verschuiven naar daluren en integreer duurzame energiebronnen zoals zonne- en windenergie om onafhankelijkheid van het elektriciteitsnet te vergroten.
 
-2. **Zorg voor Slim Energiemanagement**
-   De overgang naar elektrisch transport leidt tot extra belasting op het elektriciteitsnet, vooral tijdens piekuren. Dit kan worden opgelost met slim energiemanagement.
-   - **Slimme laadoplossingen:** Introduceer technologieën die voertuigen opladen tijdens daluren, wanneer de vraag naar elektriciteit lager is. Dit voorkomt piekbelastingen op het netwerk.
-   - **Integratie met duurzame energiebronnen:** Maak gebruik van zonne- en windenergie om elektriciteit op te wekken. Lokale opwekking kan gekoppeld worden aan opslag in batterijsystemen, zodat bedrijventerreinen onafhankelijker worden van het net tijdens piekmomenten.
+3. **Faseer de Overgang naar Elektrische Voertuigen:** 
+   Begin met de elektrificatie van bestelbusjes en personenauto's op de korte termijn en ga over op vrachtwagens naarmate technologieën verbeteren.
 
-3. **Faseer de Overgang naar Elektrische Voertuigen**
-   De overgang naar volledig elektrisch vervoer vereist een gefaseerde aanpak om bedrijven te ondersteunen in de overstap.
-   - **Stimuleer de elektrificatie van bestelbusjes en personenauto’s op de korte termijn:** Vanwege de korte afstanden die op bedrijventerreinen worden afgelegd, zijn bestelbusjes en personenauto’s eenvoudiger te elektrificeren dan vrachtwagens. Bedrijven kunnen hier direct de eerste stappen zetten.
-   - **Elektrificatie van vrachtwagens op de lange termijn:** Omdat vrachtwagens langere afstanden afleggen en hogere laadcapaciteiten vereisen, raden we een gefaseerde aanpak aan waarbij bedrijven eerst hybride vrachtwagens inzetten, gevolgd door volledig elektrische vrachtwagens naarmate technologieën verbeteren.
+4. **Monitor en Optimaliseer Continu:** 
+   Maak gebruik van data-analyse om laadinfrastructuur te optimaliseren en wees flexibel in de infrastructuur om nieuwe technologieën, zoals waterstof, te kunnen ondersteunen.
 
-4. **Monitor en Optimaliseer Continu de Infrastructuur en het Energieverbruik**
-   Een flexibel en adaptief systeem is essentieel om in te spelen op de veranderingen in vraag en aanbod van energie.
-   - **Data-analyse en optimalisatie:** Gebruik data om de laadinfrastructuur continu te monitoren en te optimaliseren. Verzamelde data kan helpen om laadstations effectiever te positioneren en energieverbruik te balanceren.
-   - **Flexibele infrastructuur:** Houd rekening met toekomstige ontwikkelingen, zoals waterstofvrachtwagens of andere alternatieve brandstoffen. De infrastructuur moet flexibel genoeg zijn om in te spelen op nieuwe technologieën.
-
-**Hoewel de logistieke opgave groot is, is deze niet onhaalbaar.** Door tijdig te investeren in infrastructuur, innovatieve technologieën toe te passen en intensief samen te werken met partners in de keten, kunnen we deze overgang succesvol maken. Het is cruciaal om de komende jaren gericht te werken aan een stapsgewijze vergroening van de mobiliteit. Dit stelt ons in staat om in 2050 een volledig elektrisch en duurzaam transportsysteem te realiseren, dat niet alleen voldoet aan de energievraag, maar ook bijdraagt aan een leefbare en duurzame toekomst voor iedereen.
+Hoewel de uitdagingen groot zijn, kunnen investeringen in infrastructuur en technologie, samen met samenwerking, een succesvolle overgang naar een duurzaam transportsysteem tegen 2050 mogelijk maken.
 """)
-
