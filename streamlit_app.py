@@ -197,8 +197,8 @@ elif blog_post == 'Informatie terrein':
     for index, row in APN_data.iterrows():
         marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 
-# Toon de map
-st_folium(m, width=700, height=500)
+    # Toon de map
+    st_folium(m, width=700, height=500)
   
 
 # ======================================================================================================================================================================
