@@ -150,9 +150,31 @@ elif blog_post == 'Informatie terrein':
         # Toon de map
         st_folium(m, width=700, height=500)
 
-    elif bedrijventerrein == 'Amsterdam Poort Noord':
-        # Functie om markers toe te voegen
-        def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
+    # elif bedrijventerrein == 'Amsterdam Poort Noord':
+    #     # Functie om markers toe te voegen
+    #     def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
+    #         geolocator = Nominatim(user_agent="mijn_applicatie")
+    #         try:
+    #             locatie = geolocator.geocode(adres)
+    #             if locatie:
+    #                 # HTML layout voor de popup
+    #                 html = f"""
+    #                 <div style="width:300px;">
+    #                 <table style="width:100%;">
+    #                 <tr><th>Adres:</th><td>{popup_adres}</td></tr>
+    #                 <tr><th>Sector:</th><td>{popup_sector}</td></tr>
+    #                 </table>
+    #                 </div>
+    #                 """
+    #                 popup = folium.Popup(html, max_width=300)
+                    
+    #                 # Marker toevoegen met popup
+    #                 folium.Marker(location=[locatie.latitude, locatie.longitude],
+    #                               popup=popup,
+    #                               tooltip=tooltip).add_to(m)
+    #         except: "done"
+
+def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
             geolocator = Nominatim(user_agent="mijn_applicatie")
             try:
                 locatie = geolocator.geocode(adres)
@@ -167,12 +189,16 @@ elif blog_post == 'Informatie terrein':
                     </div>
                     """
                     popup = folium.Popup(html, max_width=300)
-                    
-                    # Marker toevoegen met popup
+                
+                    # Marker toevoegen met aangepaste popup
                     folium.Marker(location=[locatie.latitude, locatie.longitude],
                                   popup=popup,
                                   tooltip=tooltip).add_to(m)
-            except: "done"
+                else:
+                    print(f"Adres niet gevonden: {adres}")
+            except Exception as e:
+                print(f"Fout bij geocoderen van {adres}: {e}")
+
 # Maak de map
 m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
 # Polyline toevoegen
