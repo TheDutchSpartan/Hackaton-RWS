@@ -73,7 +73,7 @@ elif blog_post == 'Aannames':
 
 #======================================================================================================================================================================
 if blog_post == 'Informatie terrein':
-    dfp_data = pd.read_csv("Hackaton-RWS/Data/Dutch Fresh Port.csv")
+    dfp_data = pd.read_csv("Hackaton-RWS/Data/DutchFreshPort.csv")
     APN_data = pd.read_csv("Hackaton-RWS/Data/AmsterdamPoortNoord.csv")
 
     dfp_data.dropna(axis=0, how='all', inplace=True)
