@@ -105,7 +105,7 @@ elif blog_post == 'Informatie terrein':
     dfp_data.dropna(axis=0, how='all', inplace=True)
     dfp_data = dfp_data.drop(dfp_data.index[-1])
   
-    st.header('Imformatie Terreinen')
+    st.header('Informatie Terreinen')
     st.write("""
     Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
