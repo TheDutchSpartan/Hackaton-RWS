@@ -71,8 +71,74 @@ elif blog_post == 'Aannames':
   - Sectorrapporten van Panteia en CBS: [cbs.nl](https://www.cbs.nl) en [panteia.nl](https://www.panteia.nl)
   """)
 
-# ======================================================================================================================================================================
-#elif blog_post == 'Inforamtie terrein':
+#======================================================================================================================================================================
+if blog_post == 'Inforamtie terrein':
+    st.header('Imformatie Terreinen')
+    st.write("""
+    Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
+    cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
+    
+    Dutch Fresh Port, gelegen in de regio Ridderkerk en Barendrecht, staat bekend als een belangrijk knooppunt voor de agro- en verslogistiek. Het bedrijventerrein 
+    herbergt tal van bedrijven die zich richten op de productie, verwerking, en distributie van verse producten, zoals groenten, fruit en bloemen. Dankzij de 
+    nabijheid van logistieke hubs en goede verbindingen met de Rotterdamse haven en het wegennet, is het een strategische locatie voor bedrijven in de voedselketen.
+    
+    Aan de andere kant ligt Amsterdam Poort Noord, een bedrijventerrein in het noorden van Amsterdam. Dit terrein richt zich voornamelijk op een mix van commerciële 
+    en industriële bedrijven, met een focus op distributie, productie en handel. De nabijheid van het centrum van Amsterdam en de grote internationale luchthaven 
+    Schiphol maakt het een aantrekkelijke locatie voor bedrijven die snelle toegang tot zowel de stad als internationale markten nodig hebben.
+    
+    Waar Dutch Fresh Port sterk gericht is op versproducten en logistiek, biedt Amsterdam Poort Noord een breder scala aan sectoren. Het verschil in locatie zorgt 
+    ervoor dat beide terreinen verschillende logistieke voordelen hebben: Dutch Fresh Port profiteert van de nabijheid van de Rotterdamse haven, terwijl Amsterdam 
+    Poort Noord dicht bij de hoofdstad en Schiphol ligt.""")
+    
+    bedrijventerrein = st.selectbox("Kies een model:", ["Dutch Fresh Port", "Amsterdam Poort Noord"])
+    
+    if bedrijventerrein == 'Dutch Fresh Port':
+
+        # Functie om markers toe te voegen
+        def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
+            geolocator = Nominatim(user_agent="mijn_applicatie")
+            try:
+                locatie = geolocator.geocode(adres)
+                if locatie:
+                    # HTML layout voor de popup
+                    html = f"""
+                    <div style="width:300px;">
+                    <table style="width:100%;">
+                    <tr><th>Adres:</th><td>{popup_adres}</td></tr>
+                    <tr><th>Sector:</th><td>{popup_sector}</td></tr>
+                    </table>
+                    </div>
+                    """
+                    popup = folium.Popup(html, max_width=300)
+                
+                    # Marker toevoegen met aangepaste popup
+                    folium.Marker(location=[locatie.latitude, locatie.longitude],
+                                  popup=popup,
+                                  tooltip=tooltip).add_to(m)
+            except: "done"
+
+        # Maak de map
+        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14)
+        
+        # Polyline toevoegen
+        coordinates = [
+            [51.86467654, 4.544055401],
+            [51.870874572133, 4.5701179918743], 
+            [51.86086497557, 4.5899717563522],
+            [51.85067, 4.55772],
+            [51.86467654, 4.544055401]
+        ]
+        folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
+
+        # Voeg markers toe op basis van gegevens in dfp_data
+        for index, row in dfp_data.iterrows():
+            marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
+
+        # Toon de map
+        m
+
+  
+
 # ======================================================================================================================================================================
 #elif blog_post == 'Energiebehoefte':
 # ======================================================================================================================================================================
