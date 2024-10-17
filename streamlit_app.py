@@ -16,27 +16,25 @@ blog_post=st.sidebar.radio('Onderdelen',
 if blog_post == 'Introductie':
   st.header('Inleiding')
   st.write("""
+### Introductie
 
-De overgang naar duurzame energie in de Nederlandse logistieke sector is een complex vraagstuk. Om te voldoen aan de klimaatdoelstellingen moet de sector versneld verduurzamen, waarbij de overstap naar emissievrije mobiliteit, zoals elektrische vrachtwagens en bestelbussen, een belangrijke rol speelt. Echter, problemen zoals netcongestie, technologische uitdagingen, hoge kosten en onzekerheden over de schaalbaarheid van bestaande oplossingen zorgen voor aanzienlijke vertragingen.
+Welkom bij dit dashboard, dat inzicht biedt in de energietransitie van mobiliteit op twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en uitdagingen als het gaat om de verduurzaming van mobiliteit.
 
-Door netcongestie is het voor veel bedrijven momenteel niet haalbaar om te investeren in duurzame lokale opwekking en laadinfrastructuur voor zero-emissie (ZE) transport. Daarom is het belangrijk om bedrijventerreinen te beschouwen als integrale gebieden, in plaats van een verzameling van onafhankelijke bedrijven. Alleen met een gezamenlijke strategie kan de energietransitie worden versneld en kunnen de klimaatdoelstellingen op de middellange termijn worden bereikt.
+De overgang naar duurzame energie in de Nederlandse logistieke sector is essentieel om de klimaatdoelstellingen te behalen. Het realiseren van emissievrije mobiliteit, zoals elektrische vrachtwagens en bestelbussen, is daarbij een belangrijk onderdeel. Echter, uitdagingen zoals netcongestie, hoge kosten en onzekerheden over schaalbaarheid zorgen voor vertragingen. Bedrijventerreinen moeten daarom als geheel worden aangepakt, waarbij samenwerking tussen bedrijven en een gezamenlijke strategie noodzakelijk zijn om de energietransitie te versnellen.
 
-Tijdens deze hackathon zullen jullie een bijdrage leveren aan dit doel door voor twee bedrijventerreinen een overzicht te maken van alle factoren die de energievraag beïnvloeden. Dit overzicht helpt om te bepalen waar de belangrijkste knelpunten liggen en welke kansen er zijn voor samenwerking tussen bedrijven. Het vormt tevens de basis voor verschillende toekomstscenario's waarin we mogelijke maatregelen en interventies kunnen onderzoeken.
+In deze app krijgt u de mogelijkheid om de toekomstige energiebehoefte van bedrijven op beide bedrijventerreinen te verkennen. De hoeveelheid benodigde kilowattuur (kWh) is een belangrijke statistiek om te bepalen hoeveel energie elk bedrijf nodig heeft om de overstap naar volledig elektrische mobiliteit te maken. Door eerst een basislijn vast te stellen, kunnen we voorspellingen doen voor de energiebehoefte in 2025 en verder, richting 2050.
 
-### Doelstelling
+### Locaties
 
-Het doel van de hackathon is om een zo compleet mogelijk overzicht te maken van de totale energievraag voor twee geselecteerde bedrijventerreinen, gebaseerd op openbare databronnen. Hierbij willen we niet alleen inzicht krijgen in de totale energievraag, maar ook in de variatie over de tijd (dag, week, maand of jaarpatronen).
+- **Dutch Fresh Port:** Dit terrein, gelegen in de regio Ridderkerk en Barendrecht, is een belangrijk knooppunt voor de agro- en verslogistiek. Dankzij de nabijheid van logistieke hubs en de Rotterdamse haven is het een strategische locatie voor bedrijven die zich richten op de productie, verwerking en distributie van verse producten zoals groenten, fruit en bloemen.
 
-Het eindresultaat is een centrale dataset per bedrijventerrein, waarin per uur van de dag gedurende een heel jaar de totale energiebehoefte inzichtelijk wordt gemaakt. Hierbij willen we ook de samenstelling van deze energievraag kunnen onderscheiden.
+- **Amsterdam Poort Noord:** Gelegen in het noorden van Amsterdam, biedt dit bedrijventerrein een mix van commerciële en industriële bedrijven, met een focus op distributie, productie en handel. De nabijheid van Amsterdam en Schiphol maakt het ideaal voor bedrijven die snel toegang willen tot zowel de stad als internationale markten.
 
-### Onderdeel: Energievraag Mobiliteit
+### Gebruik van het Dashboard
 
-Een specifiek onderdeel van de uitdaging is het bepalen van de energievraag voor mobiliteit:
-- **Vrachtwagens**
-- **Bestelbusjes en personenauto's**
-
-Het doel is om te begrijpen hoeveel energie er nodig is voor mobiliteit en waar en wanneer deze vraag ontstaat, wanneer voertuigen in de toekomst elektrisch gaan rijden.
+Selecteer een sector en kies vervolgens een bedrijf uit de legenda om de energievraag te analyseren. De grafiek toont de voorspelde energiebehoefte (kWh) voor elk bedrijf, per dag, voor het jaar 2025. Dit biedt inzicht in hoe bedrijventerreinen kunnen worden verduurzaamd en waar mogelijke knelpunten of kansen liggen.
 """)
+
 
 # ======================================================================================================================================================================
 elif blog_post == 'Aannames':
