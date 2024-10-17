@@ -156,7 +156,7 @@ elif blog_post == 'Informatie terrein':
         geolocator = Nominatim(user_agent="mijn_applicatie")
         try:
             locatie = geolocator.geocode(adres)
-              if locatie:
+            if locatie:
               # HTML layout voor de popup
                 html = f"""
                   <div style="width:300px;">
