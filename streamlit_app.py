@@ -7,12 +7,7 @@ import datetime
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-from streamlit_folium import st_folium
-dfp_data = pd.read_csv("Data/DutchFreshPort.csv", sep=";")
-APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv", sep=",")
-    
-dfp_data.dropna(axis=0, how='all', inplace=True)
-dfp_data = dfp_data.drop(dfp_data.index[-1])
+
 
 blog_post=st.sidebar.radio('Onderdelen',
                  ["Introductie", "Aannames", "Informatie terrein","Energiebehoefte","Conclusie/Aanbevelingen"])
@@ -21,7 +16,7 @@ blog_post=st.sidebar.radio('Onderdelen',
 if blog_post == 'Introductie':
   st.header('Inleiding')
 # ======================================================================================================================================================================
-if blog_post == 'Aannames':
+elif blog_post == 'Aannames':
   st.header('Aannames')
   st.write("""
     **Aannames voor de dataset van de hackathon:**
@@ -84,9 +79,15 @@ if blog_post == 'Aannames':
 
 #======================================================================================================================================================================
 if blog_post == 'Informatie terrein':
+    dfp_data = pd.read_csv("Data/DutchFreshPort.csv",sep=";")
+    APN_data = pd.read_csv("Data/AmsterdamPoortNoord.csv",sep=",")
+
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
+  
     st.header('Imformatie Terreinen')
     st.write("""
-    Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
+    Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
     cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en sectoren.
     
     Dutch Fresh Port, gelegen in de regio Ridderkerk en Barendrecht, staat bekend als een belangrijk knooppunt voor de agro- en verslogistiek. Het bedrijventerrein 
@@ -130,9 +131,9 @@ if blog_post == 'Informatie terrein':
                     print(f"Adres niet gevonden: {adres}")
             except Exception as e:
                 print(f"Fout bij geocoderen van {adres}: {e}")
-                    
+
         # Maak de map
-        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14, map = "OpenStreetMap")
+        m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14)
         
         # Polyline toevoegen
         coordinates = [
@@ -150,56 +151,11 @@ if blog_post == 'Informatie terrein':
 
         # Toon de map
         m
-        
-    elif bedrijventerrein == 'Amsterdam Poort Noord':
-        # Functie om markers toe te voegen
-        def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
-            geolocator = Nominatim(user_agent="mijn_applicatie")
-            try:
-                locatie = geolocator.geocode(adres)
-                if locatie:
-                    # HTML layout voor de popup
-                    html = f"""
-                    <div style="width:300px;">
-                    <table style="width:100%;">
-                    <tr><th>Adres:</th><td>{popup_adres}</td></tr>
-                    <tr><th>Sector:</th><td>{popup_sector}</td></tr>
-                    </table>
-                    </div>
-                    """
-                    popup = folium.Popup(html, max_width=300)
-                    
-                    # Marker toevoegen met popup
-                    folium.Marker(location=[locatie.latitude, locatie.longitude],
-                                  popup=popup,
-                                  tooltip=tooltip).add_to(m)
-                else:
-                    print(f"Adres niet gevonden: {adres}")
-            except Exception as e:
-                print(f"Fout bij geocoderen van {adres}: {e}")
 
-# Maak de map
-m = folium.Map(location=[52.395724, 4.789207], zoom_start=15, map = "OpenStreetMap")
-
-# Polyline toevoegen
-coordinates = [
-    [52.397554, 4.774426],
-    [52.393480, 4.772532], 
-    [52.393480, 4.806433],
-    [52.397554, 4.802787],
-    [52.397554, 4.774426]
-]
-folium.PolyLine(locations=coordinates, color='blue', weight=5, opacity=0.7).add_to(m)
-
-# Voeg markers toe op basis van gegevens in APN_data
-for index, row in APN_data.iterrows():
-    marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
-
-# Toon de map
-m
+  
 
 # ======================================================================================================================================================================
-if blog_post == 'Energiebehoefte':
+elif blog_post == 'Energiebehoefte':
   st.header("Energiebehoefte", divider='gray')
   st.write("De hoeveelheid kilowattuur (kWh) blijft het belangrijkste om te bepalen als het gaat om het verduurzamen van de mobiliteit van een bedrijventerrein. Deze statistiek laat zien hoeveel kWh elk bedrijf nodig heeft om alles elektrisch te kunnen maken. Door eerst baseline te bepalen, kan er vanuit daar een voorspelling gedaan worden over hoeveelheid kWh die nodig is om in 2050 helemaal elektrisch te zijn. Deze voorspelling komt voort uit de data en de eerder genoemde aannames.")
   st.write("Kies hieronder een sector en selecteer daarna in de legenda welk bedrijf u wilt analyseren. De grafiek zal alle bedrijven, van het bedrijventerrein Dutch Fresh Port, tonen die werkzaam zijn in die sector met de voorspelling hoeveel kWh er nodig is voor elke dag in 2025.") 
