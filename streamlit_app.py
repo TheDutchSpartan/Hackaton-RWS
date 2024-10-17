@@ -147,9 +147,9 @@ elif blog_post == 'Informatie terrein':
         # Voeg markers toe op basis van gegevens in dfp_data
         for index, row in dfp_data.iterrows():
             marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
-m = folium.Map(location=[51.8609276, 4.56141703], zoom_start=14,map = "OpenStreetMap")
-# Toon de map
-st_folium(m, width=700, height=500)
+        # Toon de map
+        st_folium(m, width=700, height=500)
+
 
   
 
