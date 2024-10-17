@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import folium
 # from steamlit_gallery import apps, componetns
 # from streamlit_gallery import page_group
 
