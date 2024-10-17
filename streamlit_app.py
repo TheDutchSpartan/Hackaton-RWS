@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
-import nominatim
+import Nominatim
 # from steamlit_gallery import apps, componetns
 # from streamlit_gallery import page_group
 
