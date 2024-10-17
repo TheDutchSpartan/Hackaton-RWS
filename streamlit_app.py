@@ -7,7 +7,7 @@ import datetime
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-
+from streamlit_folium import st_folium
 
 blog_post=st.sidebar.radio('Onderdelen',
                  ["Introductie", "Aannames", "Informatie terrein","Energiebehoefte","Conclusie/Aanbevelingen"])
