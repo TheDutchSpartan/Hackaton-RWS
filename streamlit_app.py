@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
-import Nominatim
+import nominatim
 # from steamlit_gallery import apps, componetns
 # from streamlit_gallery import page_group
 
@@ -104,7 +104,7 @@ if blog_post == 'Informatie terrein':
 
         # Functie om markers toe te voegen
         def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
-            geolocator = Nominatim(user_agent="mijn_applicatie")
+            geolocator = nominatim(user_agent="mijn_applicatie")
             try:
                 locatie = geolocator.geocode(adres)
                 if locatie:
