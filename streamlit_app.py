@@ -150,7 +150,7 @@ elif blog_post == 'Informatie terrein':
         # Toon de map
         st_folium(m, width=700, height=500)
 
-    elif bedrijventerrein == 'Amsterdam Poort Noord'
+    elif bedrijventerrein == 'Amsterdam Poort Noord':
       
 
 # Functie om markers toe te voegen
