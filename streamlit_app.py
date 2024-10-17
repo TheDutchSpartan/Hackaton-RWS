@@ -530,11 +530,11 @@ if blog_post == 'Energiebehoefte':
       st.plotly_chart(fig_overig_sector)
 # ======================================================================================================================================================================
 elif blog_post == 'Conclusie/Aanbevelingen':
-  st.header('### Conclusie en Aanbevelingen voor de Energietransitie van Mobiliteit op Bedrijventerreinen')
+  st.header('Conclusie en Aanbevelingen voor de Energietransitie van Mobiliteit op Bedrijventerreinen')
   st.write("""
 
 
-De energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 sterk toenemen door de groeiende vraag naar transport. Om aan deze stijgende vraag te voldoen en tegen 2050 volledig elektrisch vervoer te realiseren, is een strategische aanpak nodig die zich richt op duurzame groei en efficiënte energietransitie. Elektrificatie van transport draagt bij aan het verminderen van CO2-uitstoot, betere luchtkwaliteit en minder geluidsoverlast.
+De energiebehoefte van mobiliteit op bedrijventerreinen zal in 2025 sterk toenemen door de groeiende vraag naar transport. Om aan deze stijgende vraag te voldoen en tegen 2050 volledig elektrisch vervoer te realiseren, is een strategische aanpak nodig die zich richt op duurzame groei en efficiënte energietransitie.
 
 ### Aanbevelingen
 
