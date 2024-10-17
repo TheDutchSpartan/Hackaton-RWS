@@ -172,7 +172,7 @@ elif blog_post == 'Informatie terrein':
                 folium.Marker(location=[locatie.latitude, locatie.longitude],
                                 popup=popup,
                                 tooltip=tooltip).add_to(m)
-              else:
+          else:
                 print(f"Adres niet gevonden: {adres}")
         except Exception as e:
           print(f"Fout bij geocoderen van {adres}: {e}")
