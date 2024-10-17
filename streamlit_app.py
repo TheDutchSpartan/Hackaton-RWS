@@ -150,7 +150,8 @@ elif blog_post == 'Informatie terrein':
         # Toon de map
         st_folium(m, width=700, height=500)
 
-    else bedrijventerrein == 'Amsterdam Poort Noord':
+    else :
+      bedrijventerrein == 'Amsterdam Poort Noord':
     #     # Functie om markers toe te voegen
     #     def marker_toevoegen(adres, popup_adres, popup_sector, tooltip):
     #         geolocator = Nominatim(user_agent="mijn_applicatie")
