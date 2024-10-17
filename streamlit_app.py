@@ -78,7 +78,7 @@ elif blog_post == 'Aannames':
   """)
 
 #======================================================================================================================================================================
-elif blog_post == 'Informatie terrein':
+if blog_post == 'Informatie terrein':
     st.header('Imformatie Terreinen')
     st.write("""
     Op deze slide krijg je inzicht in twee bedrijventerreinen: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
