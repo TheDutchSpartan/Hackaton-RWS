@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import folium
 import geopy
-import nominatim
+from geopy import nominatim
 # from steamlit_gallery import apps, componetns
 # from streamlit_gallery import page_group
 
