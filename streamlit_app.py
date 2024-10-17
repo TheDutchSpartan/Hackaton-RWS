@@ -166,10 +166,10 @@ elif blog_post == 'Informatie terrein':
                   </table>
                   </div>
                   """
-                  popup = folium.Popup(html, max_width=300)
+                popup = folium.Popup(html, max_width=300)
                 
                   # Marker toevoegen met aangepaste popup
-                  folium.Marker(location=[locatie.latitude, locatie.longitude],
+                folium.Marker(location=[locatie.latitude, locatie.longitude],
                                 popup=popup,
                                 tooltip=tooltip).add_to(m)
               else:
