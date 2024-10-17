@@ -151,7 +151,7 @@ elif blog_post == 'Energiebehoefte':
   st.write("De hoeveelheid kilowattuur (kWh) blijft het belangrijkste om te bepalen als het gaat om het verduurzamen van de mobiliteit van een bedrijventerrein. Deze statistiek laat zien hoeveel kWh elk bedrijf nodig heeft om alles elektrisch te kunnen maken. Door eerst baseline te bepalen, kan er vanuit daar een voorspelling gedaan worden over hoeveelheid kWh die nodig is om in 2050 helemaal elektrisch te zijn. Deze voorspelling komt voort uit de data en de eerder genoemde aannames.")
   st.write("Kies hieronder een sector en selecteer daarna in de legenda welk bedrijf u wilt analyseren. De grafiek zal alle bedrijven, van het bedrijventerrein Dutch Fresh Port, tonen die werkzaam zijn in die sector met de voorspelling hoeveel kWh er nodig is voor elke dag in 2025.") 
   
-  dfp = pd.read_csv('Dutch Fresh Port.csv', sep=";")
+  dfp = pd.read_csv('Dutch Fresh Port.csv', sep=";", encoding='utf-8')
   dfp['Aantal parkeerplekken'] = dfp['Aantal parkeerplekken'].fillna(dfp.groupby('Sector')['Aantal parkeerplekken'].transform('median'))
   dfp['Aantal bezette parkeerplekken '] = dfp['Aantal bezette parkeerplekken '].fillna(dfp.groupby('Sector')['Aantal bezette parkeerplekken '].transform('median'))
   dfp['Aantal laad/losplekken'] = dfp['Aantal laad/losplekken'].fillna(dfp.groupby('Sector')['Aantal laad/losplekken'].transform('median'))
