@@ -15,6 +15,29 @@ blog_post=st.sidebar.radio('Onderdelen',
 # ======================================================================================================================================================================
 if blog_post == 'Introductie':
   st.header('Inleiding')
+  st.write("""
+
+De overgang naar duurzame energie in de Nederlandse logistieke sector is een complex vraagstuk. Om te voldoen aan de klimaatdoelstellingen moet de sector versneld verduurzamen, waarbij de overstap naar emissievrije mobiliteit, zoals elektrische vrachtwagens en bestelbussen, een belangrijke rol speelt. Echter, problemen zoals netcongestie, technologische uitdagingen, hoge kosten en onzekerheden over de schaalbaarheid van bestaande oplossingen zorgen voor aanzienlijke vertragingen.
+
+Door netcongestie is het voor veel bedrijven momenteel niet haalbaar om te investeren in duurzame lokale opwekking en laadinfrastructuur voor zero-emissie (ZE) transport. Daarom is het belangrijk om bedrijventerreinen te beschouwen als integrale gebieden, in plaats van een verzameling van onafhankelijke bedrijven. Alleen met een gezamenlijke strategie kan de energietransitie worden versneld en kunnen de klimaatdoelstellingen op de middellange termijn worden bereikt.
+
+Tijdens deze hackathon zullen jullie een bijdrage leveren aan dit doel door voor twee bedrijventerreinen een overzicht te maken van alle factoren die de energievraag beïnvloeden. Dit overzicht helpt om te bepalen waar de belangrijkste knelpunten liggen en welke kansen er zijn voor samenwerking tussen bedrijven. Het vormt tevens de basis voor verschillende toekomstscenario's waarin we mogelijke maatregelen en interventies kunnen onderzoeken.
+
+### Doelstelling
+
+Het doel van de hackathon is om een zo compleet mogelijk overzicht te maken van de totale energievraag voor twee geselecteerde bedrijventerreinen, gebaseerd op openbare databronnen. Hierbij willen we niet alleen inzicht krijgen in de totale energievraag, maar ook in de variatie over de tijd (dag, week, maand of jaarpatronen).
+
+Het eindresultaat is een centrale dataset per bedrijventerrein, waarin per uur van de dag gedurende een heel jaar de totale energiebehoefte inzichtelijk wordt gemaakt. Hierbij willen we ook de samenstelling van deze energievraag kunnen onderscheiden.
+
+### Onderdeel: Energievraag Mobiliteit
+
+Een specifiek onderdeel van de uitdaging is het bepalen van de energievraag voor mobiliteit:
+- **Vrachtwagens**
+- **Bestelbusjes en personenauto's**
+
+Het doel is om te begrijpen hoeveel energie er nodig is voor mobiliteit en waar en wanneer deze vraag ontstaat, wanneer voertuigen in de toekomst elektrisch gaan rijden.
+""")
+
 # ======================================================================================================================================================================
 elif blog_post == 'Aannames':
   st.header('Aannames')
