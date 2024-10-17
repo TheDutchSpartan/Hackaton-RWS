@@ -149,8 +149,8 @@ if blog_post == 'Informatie terrein':
         for index, row in dfp_data.iterrows():
             marker_toevoegen(row['Adres'], row["Adres"], row["Sector"], row["Bedrijfsnaam"])
 
-        # Toon de map
-        m
+# Toon de map
+st_folium(m, width=700, height=500)
 
   
 
