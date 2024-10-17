@@ -17,7 +17,7 @@ if blog_post == 'Introductie':
   st.header('Introductie')
   st.write("""
 
-Welkom bij dit dashboard, dat inzicht biedt in de energietransitie van mobiliteit op twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een cruciale rol in de logistiek en handel, maar hebben elk hun eigen unieke kenmerken en uitdagingen als het gaat om de verduurzaming van mobiliteit.
+Welkom bij dit dashboard, dat inzicht biedt in de energietransitie van mobiliteit op twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een rol in de logistiek en handel, maar hebben elk hun eigen  kenmerken en uitdagingen als het gaat om de verduurzaming van mobiliteit.
 
 De overgang naar duurzame energie in de Nederlandse logistieke sector is essentieel om de klimaatdoelstellingen te behalen. Het realiseren van emissievrije mobiliteit, zoals elektrische vrachtwagens en bestelbussen, is daarbij een belangrijk onderdeel. Echter, uitdagingen zoals netcongestie, hoge kosten en onzekerheden over schaalbaarheid zorgen voor vertragingen. Bedrijventerreinen moeten daarom als geheel worden aangepakt, waarbij samenwerking tussen bedrijven en een gezamenlijke strategie noodzakelijk zijn om de energietransitie te versnellen.
 
