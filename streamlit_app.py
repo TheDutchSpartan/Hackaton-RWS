@@ -73,6 +73,12 @@ elif blog_post == 'Aannames':
 
 #======================================================================================================================================================================
 if blog_post == 'Informatie terrein':
+    dfp_data = pd.read_csv("Dutch Fresh Port.csv")
+    APN_data = pd.read_csv("AmsterdamPoortNoord.csv")
+
+    dfp_data.dropna(axis=0, how='all', inplace=True)
+    dfp_data = dfp_data.drop(dfp_data.index[-1])
+  
     st.header('Imformatie Terreinen')
     st.write("""
     Op dit dashboard krijg je inzicht in twee belangrijke bedrijventerreinen in Nederland: Dutch Fresh Port en Amsterdam Poort Noord. Beide locaties spelen een 
